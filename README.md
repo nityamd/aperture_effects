@@ -66,9 +66,7 @@ Two key spectral indicators used in estimating galaxy masses in the MPA-JHU cata
 <figure>
     <center>
         <img src="images/varying_apertures.png"
-			 alt="varying_apertures"
-			 width = "500"
-       height = "700"/>
+			 alt="varying_apertures"/>
         <figcaption><i> Key spectral indicator comparison </i></figcaption>
     </center>
 </figure>
