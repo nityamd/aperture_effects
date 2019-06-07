@@ -1,4 +1,5 @@
 # aperture_effects
+
 <h1>Aperture effects in Galaxy Mass Estimation</h1>
 
 One of the most widely used Galaxy Mass catalogues,
@@ -25,6 +26,7 @@ at multiple apertures.
     </center>
 </figure>
 &nbsp;
+&nbsp;
 
 <h1> Getting a Multiple Aperture View </h1>
 
@@ -37,20 +39,24 @@ at multiple apertures.
          through the IFU; Image Credit: Dana Berry / SkyWorks Digital Inc., David Law, and the SDSS collaboration.</i></figcaption>
     </center>
 </figure>
+&nbsp;
+&nbsp;
 
 For every such galaxy, the output of the data reduction pipeline is a "datacube", a 3Darray with 2 spatial dimensions and one spectral
 dimension. We study the galaxy properties, thus in this so-called spaxel (spatial + pixel) space. For the galaxy shown above, I have
 plotted the flux as a function of the spaxel space in the following plot. The circles show the 3'' view of the galaxy (akin to what
   the SDSS spectra would see) if the galaxy were shifted to higher redshifts.
+&nbsp;
+&nbsp;
 
 <figure>
     <center>
         <img src="images/gal_aperture_redshifts.png"
 			 alt="gal_aperture_redshifts"
 			 width = "500"/>
-        <figcaption><b> The 3'' view of the same galaxy at
-         multiple reshifts </b></figcaption>
+        <figcaption><i> The 3'' view of the same galaxy at
+         multiple reshifts </i></figcaption>
     </center>
 </figure>
 
-<h2> How offset are the indicators at varying apertures? </h2>
+<h1> How offset are the indicators at varying apertures? </h1>
