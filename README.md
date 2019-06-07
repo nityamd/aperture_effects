@@ -67,6 +67,6 @@ Two key spectral indicators used in estimating galaxy masses in the MPA-JHU cata
     <center>
         <img src="images/varying_apertures.png"
 			 alt="varying_apertures"/>
-        <figcaption><i> Key spectral indicator comparison </i></figcaption>
+        <figcaption><i> A comparison of full aperture vs 3'' measurements of the two key spectral indicators that go into the galaxy mass calculation as per the MPA-JHU method.</i></figcaption>
     </center>
 </figure>
