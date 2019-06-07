@@ -2,10 +2,34 @@
 <h1>Aperture effects in Galaxy Mass Estimation</h1>
 
 One of the most widely used Galaxy Mass catalogues,
-the MPA-JHU catalog relies on SDSS spectra and SDSS
-photometry to constrain galaxy masses.
+the MPA-JHU catalog relies on SDSS (Sloan Digital Sky Survey)
+spectra and SDSS photometry to constrain galaxy masses.
 
 The SDSS spectra are taken using optic fibers with
 an angular diameter of 180 micrometers, i.e. spanning 3 arcseconds
-in the sky.Thus the spectra are obtained for only a fraction
-of the galaxy.
+in the sky. Thus the spectra are obtained for only a fraction
+of the galaxy. I examine how this would
+
+<h2> Getting a Multiple Aperture View </h2>
+
+<figure>
+    <center>
+        <img src="images/manga_9890_12702.png"
+			 alt="manga_9890_12702"
+			 style="width: 500px;"/>
+        <figcaption> A sample MaNGA galaxy viewed
+         through the IFU </figcaption>
+    </center>
+</figure>
+
+<figure>
+    <center>
+        <img src="images/gal_aperture_redshifts.pdf"
+			 alt="gal_aperture_redshifts"
+			 style="width: 500px;"/>
+        <figcaption> The 3'' view of the same galaxy at
+         <b>multiple reshifts </b></figcaption>
+    </center>
+</figure>
+
+<h2> How offset are the indicators at varying apertures? </h2>
