@@ -2,7 +2,7 @@
 <h1>Aperture effects in Galaxy Mass Estimation</h1>
 
 One of the most widely used Galaxy Mass catalogues,
-the MPA-JHU catalog relies on SDSS (Sloan Digital Sky Survey)
+the MPA-JHU catalog, relies on SDSS (Sloan Digital Sky Survey)
 spectra and SDSS photometry to constrain galaxy masses.
 
 The SDSS spectra are taken using optic fibers with
@@ -18,7 +18,7 @@ galaxy mass measurements made using the 3'' apertures.
     <center>
         <img src="images/manga_schematic.jpg"
 			 alt="manga_schematic"
-			 style="width: 250px;"/>
+			 width = "200"/>
         <figcaption><b>Schematic of MaNGA IFU and the spatially
         resolved spectra obtained thus </b></figcaption>
     </center>
