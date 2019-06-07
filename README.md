@@ -41,7 +41,7 @@ at multiple apertures.
          through the IFU; Image Credit: Dana Berry / SkyWorks Digital Inc., David Law, and the SDSS collaboration.</i></figcaption>
     </center>
 </figure>
-&nbsp; &nbsp;
+&nbsp; &nbsp; </br>
 
 
 For every such galaxy, the output of the data reduction pipeline is a "datacube", a 3Darray with 2 spatial dimensions and one spectral
