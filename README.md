@@ -24,7 +24,7 @@ of the galaxy. I examine how this would
 
 <figure>
     <center>
-        <img src="images/gal_aperture_redshifts.pdf"
+        <img src="images/gal_aperture_redshifts.png"
 			 alt="gal_aperture_redshifts"
 			 style="width: 500px;"/>
         <figcaption> The 3'' view of the same galaxy at
