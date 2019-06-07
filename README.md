@@ -1,4 +1,6 @@
 # aperture_effects
+The following is a description of the problem statement. The notebook describes the calculation for a single galaxy and how
+<i>aperture_spec.py</i> works and how to obtain multiple aperture measurements of any spectral indicator for any galaxy.
 
 <h1>Aperture effects in Galaxy Mass Estimation</h1>
 
