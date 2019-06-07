@@ -1,13 +1,12 @@
 # aperture_effects
-The following is a description of the problem statement. The notebook describes the calculation for a single galaxy, how
-<i>aperture_spec.py</i> works and how to use <i>aperture_spec.py</i> to obtain multiple aperture measurements of any spectral indicator for any galaxy.
+The following is a description of the context of the code and the problem statement. The notebook describes the calculation for a single galaxy, how <i>aperture_spec.py</i> works and how to use <i>aperture_spec.py</i> to obtain multiple aperture measurements of any spectral indicator for any galaxy.
 
 <h1>Aperture effects in Galaxy Mass Estimation</h1>
 
 One of the most widely used Galaxy Mass catalogues,
 the [MPA-JHU catalog](https://www.sdss.org/dr15/data_access/value-added-catalogs/?vac_id=mpa-jhu-stellar-masses), relies on SDSS (Sloan Digital Sky Survey) spectra and SDSS photometry to constrain galaxy masses.
 
-The [SDSS spectra](https://www.sdss.org/dr12/spectro/) are taken using optic fibers with
+The [SDSS spectra](https://www.sdss.org/dr12/spectro/) are taken using optical fibers with
 an angular diameter of 180 micrometers, i.e. spanning 3 arcseconds
 in the sky. Thus the spectra are obtained for only a fraction
 of the galaxy.
@@ -27,8 +26,6 @@ at multiple apertures.
         resolved spectra obtained.&nbsp;</i></figcaption>
     </center>
 </figure>
-&nbsp;
-&nbsp;
 
 <h1> Getting a Multiple Aperture View </h1>
 
@@ -41,15 +38,11 @@ at multiple apertures.
          through the IFU; Image Credit: Dana Berry / SkyWorks Digital Inc., David Law, and the SDSS collaboration.</i></figcaption>
     </center>
 </figure>
-&nbsp; &nbsp; </br>
 
-
-For every such galaxy, the output of the data reduction pipeline is a "datacube", a 3Darray with 2 spatial dimensions and one spectral
+For every such galaxy, the output of the data reduction pipeline is a "datacube", a 3D array with 2 spatial dimensions and one spectral
 dimension. We study the galaxy properties, thus in this so-called spaxel (spatial + pixel) space. For the galaxy shown above, I have
 plotted the flux as a function of the spaxel space in the following plot. The circles show the 3'' view of the galaxy (akin to what
   the SDSS spectra would see) if the galaxy were shifted to higher redshifts.
-&nbsp;
-&nbsp;
 
 <figure>
     <center>
@@ -62,3 +55,20 @@ plotted the flux as a function of the spaxel space in the following plot. The ci
 </figure>
 
 <h1> How offset are the indicators at varying apertures? </h1>
+
+For any MaNGA galaxy at redshift z<sub>obs</sub>, we can thus simulate what the SDSS Main Sample spectrum would have looked like if it had observed the galaxy at that redshift or any higher redshift. We simply calculate the spectrum within an aperture that is 3′′ diameter (if we are simulating the Main Sample spectrum at z<sub>obs</sub>) or larger (if we are simulating the spectrum at a larger z). For any spectral measurement we can then compare the measurement of the total spectrum in the MaNGA cube to that which would have been measured through a 3′′ aperture at a given redshift.
+
+Since galaxies come in a range of sizes and spectral profiles, this difference will vary from galaxy to galaxy and we must look at a large sample. Importantly, for a chosen redshift z<sub>new</sub> at which to evaluate the degree of bias, we can only use a sample of galaxies with z<sub>obs</sub> ≤ z<sub>new</sub>.
+
+Two key spectral indicators used in estimating galaxy masses in the MPA-JHU catalog are the Balmer Delta absorption line and the
+4000 Angstrom break in galaxies. I estimate these indicators for the varying apertures and the result is shown below.
+
+<figure>
+    <center>
+        <img src="images/varying_apertures"
+			 alt="varying_apertures"
+			 width = "500"
+       height = "700"/>
+        <figcaption><i> Key spectral indicator comparison </i></figcaption>
+    </center>
+</figure>
