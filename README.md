@@ -11,7 +11,7 @@ of the galaxy.
 
 With the advent of [Integral Field Units](https://www.sdss.org/dr13/manga/manga-tutorials/what-is-ifu-spectroscopy/), we can now obtain spatially resolved spectra of galaxies that will allow us to test the aperture effects
 in galaxy mass estimation.The largest IFU-based survey currently underway is
-MaNGA (Mapping Nearby galaxies at Apache Point) and I use 6000
+[MaNGA (Mapping Nearby galaxies at Apache Point)](https://www.sdss.org/surveys/manga/) and I use 6000
 galaxies from MaNGA and employ the same mass estimation as the MPA-JHU
 at multiple apertures.
 
@@ -24,7 +24,11 @@ at multiple apertures.
         resolved spectra obtained thus </i></figcaption>
     </center>
 </figure>
+&nbsp;
 
+<h1> Getting a Multiple Aperture View </h1>
+
+Each galaxy in MaNGA
 
 <figure>
     <center>
@@ -32,11 +36,11 @@ at multiple apertures.
 			 alt="manga_9890_12702"
 			 width = "500"/>
         <figcaption> <i>A sample MaNGA galaxy viewed
-         through the IFU </i></figcaption>
+         through the IFU; Image Credit: Dana Berry / SkyWorks Digital Inc., David Law, and the SDSS collaboration.</i></figcaption>
     </center>
 </figure>
 
-<h2> Getting a Multiple Aperture View </h2>
+
 
 <figure>
     <center>
