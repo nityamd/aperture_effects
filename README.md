@@ -23,7 +23,7 @@ at multiple apertures.
 			 alt="manga_schematic"
 			 width = "500"/>
         <figcaption><i>Schematic of MaNGA IFU and the spatially
-        resolved spectra obtained.&nbsp;</i></figcaption>
+        resolved spectra obtained.</i></figcaption>
     </center>
 </figure>
 
@@ -50,7 +50,8 @@ plotted the flux as a function of the spaxel space in the following plot. The ci
 			 alt="gal_aperture_redshifts"
 			 width = "500"/>
         <figcaption><i> The 3'' view of the same galaxy at
-         multiple reshifts </i></figcaption>
+         multiple reshifts; the colorbar shows the total flux from each spaxel in units of
+         ergs/cm^2/s.</i></figcaption>
     </center>
 </figure>
 
