@@ -41,8 +41,8 @@ at multiple apertures.
          through the IFU; Image Credit: Dana Berry / SkyWorks Digital Inc., David Law, and the SDSS collaboration.</i></figcaption>
     </center>
 </figure>
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
+
 
 For every such galaxy, the output of the data reduction pipeline is a "datacube", a 3Darray with 2 spatial dimensions and one spectral
 dimension. We study the galaxy properties, thus in this so-called spaxel (spatial + pixel) space. For the galaxy shown above, I have
