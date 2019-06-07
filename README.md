@@ -21,32 +21,33 @@ at multiple apertures.
 			 alt="manga_schematic"
 			 width = "500"/>
         <figcaption><i>Schematic of MaNGA IFU and the spatially
-        resolved spectra obtained thus </i></figcaption>
+        resolved spectra obtained.</i></figcaption>
     </center>
 </figure>
 &nbsp;
 
 <h1> Getting a Multiple Aperture View </h1>
 
-Each galaxy in MaNGA
-
 <figure>
     <center>
         <img src="images/manga_9890_12702.png"
 			 alt="manga_9890_12702"
 			 width = "500"/>
-        <figcaption> <i>A sample MaNGA galaxy viewed
+        <figcaption> <i>A sample MaNGA galaxy at a redshift of z = 0.0392 viewed
          through the IFU; Image Credit: Dana Berry / SkyWorks Digital Inc., David Law, and the SDSS collaboration.</i></figcaption>
     </center>
 </figure>
 
-
+For every such galaxy, the output of the data reduction pipeline is a "datacube", a 3Darray with 2 spatial dimensions and one spectral
+dimension. We study the galaxy properties, thus in this so-called spaxel (spatial + pixel) space. For the galaxy shown above, I have
+plotted the flux as a function of the spaxel space in the following plot. The circles show the 3'' view of the galaxy (akin to what
+  the SDSS spectra would see) if the galaxy were shifted to higher redshifts.
 
 <figure>
     <center>
         <img src="images/gal_aperture_redshifts.png"
 			 alt="gal_aperture_redshifts"
-			 style="width: 500px;"/>
+			 width = "500"/>
         <figcaption><b> The 3'' view of the same galaxy at
          multiple reshifts </b></figcaption>
     </center>
