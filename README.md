@@ -20,8 +20,8 @@ at multiple apertures.
         <img src="images/manga_schematic.jpg"
 			 alt="manga_schematic"
 			 width = "500"/>
-        <figcaption><b>Schematic of MaNGA IFU and the spatially
-        resolved spectra obtained thus </b></figcaption>
+        <figcaption><i>Schematic of MaNGA IFU and the spatially
+        resolved spectra obtained thus </i></figcaption>
     </center>
 </figure>
 
@@ -30,9 +30,9 @@ at multiple apertures.
     <center>
         <img src="images/manga_9890_12702.png"
 			 alt="manga_9890_12702"
-			 style="width: 500px;"/>
-        <figcaption> <b>A sample MaNGA galaxy viewed
-         through the IFU </b></figcaption>
+			 width = "500"/>
+        <figcaption> <i>A sample MaNGA galaxy viewed
+         through the IFU </i></figcaption>
     </center>
 </figure>
 
