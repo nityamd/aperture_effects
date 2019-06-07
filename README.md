@@ -8,11 +8,14 @@ spectra and SDSS photometry to constrain galaxy masses.
 The SDSS spectra are taken using optic fibers with
 an angular diameter of 180 micrometers, i.e. spanning 3 arcseconds
 in the sky. Thus the spectra are obtained for only a fraction
-of the galaxy. However with the advent of Integral Field Units,
-we can now obtain spatially resolved spectra of galaxies and
-the largest IFU-based survey currently underway known as
-MaNGA (Mapping Nearby galaxies at Apache Point) to test the
-galaxy mass measurements made using the 3'' apertures.
+of the galaxy. [I'm an inline-style link](https://www.google.com)
+
+With the advent of Integral Field Units,we can now obtain spatially resolved
+spectra of galaxies that will allow us to test the aperture effects
+in galaxy mass estimation.The largest IFU-based survey currently underway is
+MaNGA (Mapping Nearby galaxies at Apache Point) and I use 6000
+galaxies from MaNGA and employ the same mass estimation as the MPA-JHU
+at multiple apertures.
 
 <figure>
     <center>
