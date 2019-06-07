@@ -61,7 +61,7 @@ For any MaNGA galaxy at redshift z<sub>obs</sub>, we can thus simulate what the 
 Since galaxies come in a range of sizes and spectral profiles, this difference will vary from galaxy to galaxy and we must look at a large sample. Importantly, for a chosen redshift z<sub>new</sub> at which to evaluate the degree of bias, we can only use a sample of galaxies with z<sub>obs</sub> ≤ z<sub>new</sub>.
 
 Two key spectral indicators used in estimating galaxy masses in the MPA-JHU catalog are the Balmer Delta absorption line and the
-4000 Angstrom break in galaxies. I estimate these indicators for the varying apertures and the result is shown below.
+4000 Angstrom break in galaxies. For the 6000 MaNGA galaxies surveyed so far, I use <i>aperture_spec.py</i> to estimate these indicators for the varying apertures and the result is shown below.
 
 <figure>
     <center>
