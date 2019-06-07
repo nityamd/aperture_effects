@@ -2,16 +2,14 @@
 <h1>Aperture effects in Galaxy Mass Estimation</h1>
 
 One of the most widely used Galaxy Mass catalogues,
-the MPA-JHU catalog, relies on SDSS (Sloan Digital Sky Survey)
-spectra and SDSS photometry to constrain galaxy masses.
+the [MPA-JHU catalog](https://www.sdss.org/dr15/data_access/value-added-catalogs/?vac_id=mpa-jhu-stellar-masses), relies on SDSS (Sloan Digital Sky Survey) spectra and SDSS photometry to constrain galaxy masses.
 
-The SDSS spectra are taken using optic fibers with
+The [SDSS spectra](https://www.sdss.org/dr12/spectro/) are taken using optic fibers with
 an angular diameter of 180 micrometers, i.e. spanning 3 arcseconds
 in the sky. Thus the spectra are obtained for only a fraction
-of the galaxy. [I'm an inline-style link](https://www.google.com)
+of the galaxy.
 
-With the advent of Integral Field Units,we can now obtain spatially resolved
-spectra of galaxies that will allow us to test the aperture effects
+With the advent of [Integral Field Units](https://www.sdss.org/dr13/manga/manga-tutorials/what-is-ifu-spectroscopy/), we can now obtain spatially resolved spectra of galaxies that will allow us to test the aperture effects
 in galaxy mass estimation.The largest IFU-based survey currently underway is
 MaNGA (Mapping Nearby galaxies at Apache Point) and I use 6000
 galaxies from MaNGA and employ the same mass estimation as the MPA-JHU
