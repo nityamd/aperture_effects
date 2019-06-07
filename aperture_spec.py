@@ -1,8 +1,6 @@
 import numpy as np
 import scipy
 import scipy.interpolate as interp
-import scipy.stats as st
-import scipy.signal as sig
 
 import pickle
 import os
@@ -24,7 +22,10 @@ class spec_measurements():
     """
     def __init__(self,drp_logcube,z):
         """
-        wave: set of wavelengths the spectrograph spans
+        wave: set of wavelengths the spectrograph spans;
+        The bandpass definitions for Hdelta and Dn4000 are
+        as defined in Balogh et. al. (1999) per the procedure
+        followed in MPA-JHU (Kauffmann et. al., 2003).
         """
 
         self.wave = (drp_logcube['WAVE']).data/(1+z)
@@ -115,8 +116,10 @@ class aperture_measurements():
         self.radii = np.ravel(self.grid)
 
     def get_radii(self,z_new):
-        #gets you the new radii for any redshift
-        #radii_new = (1+z_new)*comdis(z_obs)*radii/((1+z_obs)*comdis(z_new))
+        """
+        gets you the new radii for any redshift
+        radii_new = (1+z_new)*comdis(z_obs)*radii/((1+z_obs)*comdis(z_new))
+        """
         radii_new = ((1+z_new)*cosmo.comoving_distance(self.z)*
                      self.radii)/((1+self.z)*cosmo.comoving_distance(z_new))
         return np.array(radii_new)
@@ -159,7 +162,7 @@ class aperture_measurements():
 
     def get_spec_measure(self,aperture,z_new,spectral_measure):
         """
-        Hda/Dn4000/Halpha/(?) within aperture
+        Hda/Dn4000/Halpha within aperture
         """
         specs = self.get_spaxels(aperture,z_new)
         if spectral_measure == 'hdelta':
@@ -174,7 +177,7 @@ class aperture_measurements():
 
     def get_spec_ann_measure(self,aperture,z_new,ring_width,spectral_measure):
         """
-        Hda/Dn4000/Halpha/(?) within annulus
+        Hda/Dn4000/Halpha within annulus
         """
         specs = self.get_spaxels_annulus(aperture,z_new,ring_width)
         if spectral_measure == 'hdelta':

@@ -8,8 +8,16 @@ the [MPA-JHU catalog](https://www.sdss.org/dr15/data_access/value-added-catalogs
 
 The [SDSS spectra](https://www.sdss.org/dr12/spectro/) are taken using optical fibers with
 an angular diameter of 180 micrometers, i.e. spanning 3 arcseconds
-in the sky. Thus the spectra are obtained for only a fraction
-of the galaxy.
+in the sky. Thus the spectra are obtained for only a <b>fraction
+of the galaxy</b>.
+
+The MPA-JHU mass estimation method uses two key spectral indicators to constrain
+the mass-to-light ratio of a galaxy. However since the spectra are not obtained
+for the whole galaxy, the following questions are of concern:
+When and where do they fail? Does the fundamental assumption
+that the mass-to-light ratio at the center of a galaxy is indicative of the total
+mass-to-light ratio hold good for all galaxies? In particular how are low, medium
+and high redshift galaxy masses offset from their whole aperture measurements? 
 
 With the advent of [Integral Field Units](https://www.sdss.org/dr13/manga/manga-tutorials/what-is-ifu-spectroscopy/), we can now obtain spatially resolved spectra of galaxies that will allow us to test the aperture effects
 in galaxy mass estimation.The largest IFU-based survey currently underway is
