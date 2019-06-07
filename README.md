@@ -18,7 +18,7 @@ galaxy mass measurements made using the 3'' apertures.
     <center>
         <img src="images/manga_schematic.jpg"
 			 alt="manga_schematic"
-			 style="width: 500px;"/>
+			 style="width: 250px;"/>
         <figcaption><b>Schematic of MaNGA IFU and the spatially
         resolved spectra obtained thus </b></figcaption>
     </center>
