@@ -5,10 +5,7 @@ import scipy.interpolate as interp
 import pickle
 import os
 
-import astropy as ap
 from astropy.io import fits
-from astropy import table as t
-from astropy.table import Table
 from astropy import wcs
 from astropy.cosmology import WMAP9 as cosmo
 
@@ -46,7 +43,7 @@ class spec_measurements():
         Trapezoidal Sum to estimate
         area under curve
         """
-        tsum = np.sum(np.abs((xin[1:]-xin[:-1]))*(yin[1:]+yin[:-1])/2. )
+        tsum = np.sum(np.abs((xin[1:]-xin[:-1]))*(yin[1:]+yin[:-1])/2.0 )
         return tsum
 
     def dn4000_red(self,spec):
@@ -73,7 +70,7 @@ class spec_measurements():
 
         a_spec = (spec_av_redside - spec_av_blueside)/(
                 (4161.000+4128.500)/2.0 - (4079.750+4041.600)/2.0)
-        b_spec = spec_av_blueside - a_spec * (4079.750+4041.600)/2
+        b_spec = spec_av_blueside - a_spec * (4079.750+4041.600)/2.0
 
         spec_cont_HdA = self.wave[self.bandw_HdA] * a_spec + b_spec
         mean_dip = np.mean([spec[self.bandw_HdA] for spec in specs])
