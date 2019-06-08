@@ -12,8 +12,11 @@ in the sky. Thus the spectra are obtained for only a <b>fraction
 of the galaxy</b>.
 
 The MPA-JHU mass estimation method uses two key spectral indicators to constrain
-the mass-to-light ratio of a galaxy. However since the spectra are not obtained
-for the whole galaxy, the following questions are of concern:
+the mass-to-light ratio of a galaxy. The HδA and Dn4000 indicators together provide
+a powerful constraint on the stellar mass content of a galaxy. However since the spectra
+are not obtained for the whole galaxy, the following questions are of concern while using
+these masses:
+
 When and where do they fail? Does the fundamental assumption
 that the mass-to-light ratio at the center of a galaxy is indicative of the total
 mass-to-light ratio hold good for all galaxies? In particular how are low, medium
