@@ -17,11 +17,11 @@ for the whole galaxy, the following questions are of concern:
 When and where do they fail? Does the fundamental assumption
 that the mass-to-light ratio at the center of a galaxy is indicative of the total
 mass-to-light ratio hold good for all galaxies? In particular how are low, medium
-and high redshift galaxy masses offset from their whole aperture measurements? 
+and high redshift galaxy masses offset from their whole aperture measurements?
 
 With the advent of [Integral Field Units](https://www.sdss.org/dr13/manga/manga-tutorials/what-is-ifu-spectroscopy/), we can now obtain spatially resolved spectra of galaxies that will allow us to test the aperture effects
 in galaxy mass estimation.The largest IFU-based survey currently underway is
-[MaNGA (Mapping Nearby galaxies at Apache Point)](https://www.sdss.org/surveys/manga/) and I use 6000
+[MaNGA (Mapping Nearby galaxies at Apache Point)](https://www.sdss.org/surveys/manga/) and I use 6400
 galaxies from MaNGA and employ the same mass estimation as the MPA-JHU
 at multiple apertures.
 
@@ -70,7 +70,7 @@ For any MaNGA galaxy at redshift z<sub>obs</sub>, we can thus simulate what the 
 Since galaxies come in a range of sizes and spectral profiles, this difference will vary from galaxy to galaxy and we must look at a large sample. Importantly, for a chosen redshift z<sub>new</sub> at which to evaluate the degree of bias, we can only use a sample of galaxies with z<sub>obs</sub> ≤ z<sub>new</sub>.
 
 Two key spectral indicators used in estimating galaxy masses in the MPA-JHU catalog are the Balmer Delta absorption line and the
-4000 Angstrom break in galaxies. For the 6000 MaNGA galaxies surveyed so far, I use <i>aperture_spec.py</i> to estimate these indicators. The plot shown below shows how the 3'' measurements at the redshift of the galaxy compares to the full aperture measurement at three z<sub>new</sub> redshifts.
+4000 Angstrom break in galaxies. For the  MaNGA galaxies surveyed so far, I use <i>aperture_spec.py</i> to estimate these indicators. The plot shown below shows how the 3'' measurements at the redshift of the galaxy compares to the full aperture measurement at three z<sub>new</sub> redshifts.
 
 <figure>
     <center>
