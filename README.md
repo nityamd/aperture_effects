@@ -10,8 +10,8 @@ The [SDSS spectra](https://www.sdss.org/dr12/spectro/) are taken using optical f
 an angular diameter of 180 micrometers, i.e. spanning 3 arcseconds
 in the sky. Thus the spectra are obtained for only a <b>fraction
 of the galaxy</b>. The fraction of the galaxy that falls within the 3" aperture
-can thus be widely different depending on how far away it is (i.e., its <i>
-  redshift </i>)
+can thus be widely different depending on how far away it is from us (i.e., its <i>
+redshift </i>).
 
 The MPA-JHU mass estimation method uses two key spectral indicators to constrain
 the mass-to-light ratio of a galaxy. The HδA and Dn4000 indicators together provide
