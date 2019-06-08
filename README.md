@@ -69,8 +69,9 @@ For any MaNGA galaxy at redshift z<sub>obs</sub>, we can thus simulate what the 
 
 Since galaxies come in a range of sizes and spectral profiles, this difference will vary from galaxy to galaxy and we must look at a large sample. Importantly, for a chosen redshift z<sub>new</sub> at which to evaluate the degree of bias, we can only use a sample of galaxies with z<sub>obs</sub> ≤ z<sub>new</sub>.
 
-Two key spectral indicators used in estimating galaxy masses in the MPA-JHU catalog are the Balmer Delta absorption line and the
-4000 Angstrom break in galaxies. For the  MaNGA galaxies surveyed so far, I use <i>aperture_spec.py</i> to estimate these indicators.
+Two key spectral indicators used in estimating galaxy masses in the MPA-JHU catalog are the Balmer Delta absorption line (HδA) and the
+4000 Angstrom break (Dn4000) in galaxies. For the  MaNGA galaxies surveyed so far, I use <b><i>aperture_spec.py</i></b> to estimate these indicators.
+
 To investigate how the full aperture measurements compare to the 3′′ measurements, I choose 3 different redshift bins z = 0.02, 0.06, and 0.14, and determine how offset the HδA and Dn4000 measures are. For each redshift z, I pick the galaxies with redshifts z<sub>obs</sub> < z, “shift” them to the cutoff redshift, and compare the full aperture measurements to the 3′′ measurements that would be made at redshift z.
 
 The results of this procedure are shown in below, where the full aperture measurements are plotted against the 3′′ measurements at the each redshift, with the colorbars indicating the number of galaxies in each bin. The total number of galaxies at each redshift is 561 for z = 0.02, 5016 for z = 0.06 and 6402 for z = 0.14.
