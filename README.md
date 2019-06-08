@@ -9,7 +9,9 @@ the [MPA-JHU catalog](https://www.sdss.org/dr15/data_access/value-added-catalogs
 The [SDSS spectra](https://www.sdss.org/dr12/spectro/) are taken using optical fibers with
 an angular diameter of 180 micrometers, i.e. spanning 3 arcseconds
 in the sky. Thus the spectra are obtained for only a <b>fraction
-of the galaxy</b>.
+of the galaxy</b>. The fraction of the galaxy that falls within the 3" aperture
+can thus be widely different depending on how far away it is (i.e., its <i>
+  redshift </i>)
 
 The MPA-JHU mass estimation method uses two key spectral indicators to constrain
 the mass-to-light ratio of a galaxy. The HδA and Dn4000 indicators together provide
@@ -52,7 +54,7 @@ at multiple apertures.
 </figure>
 
 For every such galaxy, the output of the data reduction pipeline is a "datacube", a 3D array with 2 spatial dimensions and one spectral
-dimension. We study the galaxy properties, thus in this so-called spaxel (spatial + pixel) space. For the galaxy shown above, I have
+dimension. We study the galaxy properties, thus, in this so-called spaxel (spatial + pixel) space. For the galaxy shown above, I have
 plotted the flux as a function of the spaxel space in the following plot. The circles show the 3'' view of the galaxy (akin to what
   the SDSS spectra would see) if the galaxy were shifted to higher redshifts.
 
