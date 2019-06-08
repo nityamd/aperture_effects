@@ -80,7 +80,6 @@ To investigate how the full aperture measurements compare to the 3′′ measure
 
 The results of this procedure are shown in below, where the full aperture measurements are plotted against the 3′′ measurements at the each redshift, with the colorbars indicating the number of galaxies in each bin. The total number of galaxies at each redshift is 561 for z = 0.02, 5016 for z = 0.06 and 6402 for z = 0.14.
 
-The plot shown below shows how the 3'' measurements at the redshift of the galaxy compares to the full aperture measurement at three z<sub>new</sub> redshifts.
 
 <figure>
     <center>
