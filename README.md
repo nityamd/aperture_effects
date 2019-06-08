@@ -35,7 +35,7 @@ at multiple apertures.
 			 width = "500"/>
         <figcaption><i>Schematic of MaNGA IFU and the spatially
         resolved spectra obtained; Image Credit: Dana Berry / SkyWorks Digital Inc., David Law, and
-        the SDSS collaboration</i></figcaption>
+        the SDSS collaboration.</i></figcaption>
     </center>
 </figure>
 
@@ -47,7 +47,7 @@ at multiple apertures.
 			 alt="manga_9890_12702"
 			 width = "500"/>
         <figcaption> <i>A sample MaNGA galaxy at a redshift of z = 0.0392 viewed
-         through the IFU. .</i></figcaption>
+         through the IFU.</i></figcaption>
     </center>
 </figure>
 
